@@ -37,7 +37,7 @@ app.post('/reset', (req, res) => {
     res.send('Request Count has been reset');
 });
 
-app.get('bajaj', (req, res) => {
+app.get('/bajaj', (req, res) => {
     res.send('Bajaj');
 });
 
