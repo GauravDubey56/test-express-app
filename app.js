@@ -37,6 +37,10 @@ app.post('/reset', (req, res) => {
     res.send('Request Count has been reset');
 });
 
+app.get('bajaj', (req, res) => {
+    res.send('Bajaj');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
