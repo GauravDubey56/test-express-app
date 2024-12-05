@@ -41,6 +41,11 @@ app.get('/bajaj', (req, res) => {
     res.send('Bajaj');
 });
 
+
+app.get('/riya', (req, res) => {
+    res.send('riya');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
